@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+}
+.box{
+    position: relative;
+    width: 1000px;
+    height: 590px;
+    margin: 40px auto;
+}
+.box:hover .box-y{
+    display: block;
+    cursor: pointer;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+}
+.box .box-y{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.4) url(../images/bf.png) no-repeat center;
+    display: none;
+}
